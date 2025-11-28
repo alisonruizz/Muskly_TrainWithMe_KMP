@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_goals_png.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/goals_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_capybara_rest_png.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/capybara_rest_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_default_shop_png.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/default_shop_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_capybara_train_png.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/capybara_train_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_musktrain.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/musktrain.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_tips.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/tips.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_imagen_2025_08_24_143956030_png.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/imagen_2025_08_24_143956030_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_happybara_png.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/happybara_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_chiguicoin_png.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/chiguicoin_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_speech_bubble.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/speech_bubble.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/ic_launcher_background.xml"
+    }
+]

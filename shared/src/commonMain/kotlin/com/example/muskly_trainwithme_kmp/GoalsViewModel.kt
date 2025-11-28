@@ -65,6 +65,6 @@ class GoalsViewModel {
     }
 
     fun resetAllGoals() {
-        _goals.value = _goals.value.map { it.copy(completed = false) }
-    }
+        _goals.value = _goals.value.map { it.copy(completed = false)}
+        }
 }
