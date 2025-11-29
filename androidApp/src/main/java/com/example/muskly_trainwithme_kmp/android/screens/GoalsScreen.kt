@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.sp
 import com.example.muskly_trainwithme_kmp.Goal
 import com.example.muskly_trainwithme_kmp.GoalsViewModel
 import com.example.muskly_trainwithme_kmp.R
-import com.example.muskly_trainwithme_kmp.android.trainingSpeechBubbleShape
+import com.example.muskly_trainwithme_kmp.android.screens.trainingSpeechBubbleShape
 import com.example.muskly_trainwithme_kmp.ui.theme.Muskly_TrainWithMeTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

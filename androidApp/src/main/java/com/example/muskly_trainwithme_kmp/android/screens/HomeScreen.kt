@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.android
+package com.example.muskly_trainwithme_kmp.android.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -19,8 +19,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.muskly_trainwithme_kmp.R
-import androidx.compose.ui.graphics.Color
 import com.example.muskly_trainwithme_kmp.ui.theme.Muskly_TrainWithMeTheme
 
 class TrainStartActivity : ComponentActivity() {
