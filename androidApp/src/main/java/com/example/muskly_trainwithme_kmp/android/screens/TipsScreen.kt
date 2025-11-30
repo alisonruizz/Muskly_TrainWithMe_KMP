@@ -21,7 +21,6 @@ import androidx.compose.ui.unit.sp
 import com.example.muskly_trainwithme_kmp.TipsViewModel
 import com.example.muskly_trainwithme_kmp.android.R
 import com.example.muskly_trainwithme_kmp.ui.theme.Muskly_TrainWithMeTheme
-import com.example.muskly_trainwithme_kmp.ui.theme.MyApplicationTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

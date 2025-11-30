@@ -30,7 +30,7 @@ class TrainStartActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.secondaryContainer
                 ) {
-                    TrainStartScreen()
+                    HomeScreen()
                 }
             }
         }
@@ -38,7 +38,7 @@ class TrainStartActivity : ComponentActivity() {
 }
 
 @Composable
-fun TrainStartScreen() {
+fun HomeScreen() {
     var xpProgress by remember { mutableStateOf(0.6f) } // solo visual
     var currentXP by remember { mutableStateOf(370) }
     var maxXP by remember { mutableStateOf(500) }
@@ -306,6 +306,6 @@ fun trainingSpeechBubbleShape(): GenericShape {
 @Composable
 fun TrainStartScreenPreview() {
     Muskly_TrainWithMeTheme {
-        TrainStartScreen()
+        HomeScreen()
     }
 }

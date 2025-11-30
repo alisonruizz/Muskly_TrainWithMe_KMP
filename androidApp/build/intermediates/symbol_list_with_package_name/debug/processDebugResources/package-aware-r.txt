@@ -68,6 +68,15 @@ drawable ic_call_decline_low
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable imagen_2025_08_24_143956030_png
+drawable img1
+drawable img11
+drawable img12
+drawable img17
+drawable img18
+drawable img19
+drawable img3
+drawable img8
+drawable img9
 drawable musktrain
 drawable notification_action_background
 drawable notification_bg

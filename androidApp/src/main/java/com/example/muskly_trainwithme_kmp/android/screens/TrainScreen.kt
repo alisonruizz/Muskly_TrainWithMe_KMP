@@ -24,7 +24,6 @@ import com.example.muskly_trainwithme_kmp.Train.TrainViewModel
 import com.example.muskly_trainwithme_kmp.android.R
 import com.example.muskly_trainwithme_kmp.android.Screens.TipsScreen
 import com.example.muskly_trainwithme_kmp.ui.theme.Muskly_TrainWithMeTheme
-import com.example.muskly_trainwithme_kmp.ui.theme.MyApplicationTheme
 
 @OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3Api::class)
 @Composable

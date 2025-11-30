@@ -1,50 +1,86 @@
 [
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_goals_png.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/goals_png.png"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_capybara_rest_png.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/capybara_rest_png.png"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_imagen_2025_08_24_143956030_png.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\imagen_2025_08_24_143956030_png.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_capybara_train_png.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\capybara_train_png.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_default_shop_png.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/default_shop_png.png"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_chiguicoin_png.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\chiguicoin_png.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_capybara_train_png.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/capybara_train_png.png"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_tips.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\tips.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_musktrain.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/musktrain.png"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_happybara_png.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\happybara_png.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_tips.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/tips.png"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_goals_png.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\goals_png.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_imagen_2025_08_24_143956030_png.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/imagen_2025_08_24_143956030_png.png"
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img1.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img1.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_happybara_png.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/happybara_png.png"
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img11.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img11.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_chiguicoin_png.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/chiguicoin_png.png"
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_musktrain.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\musktrain.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_speech_bubble.png.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/speech_bubble.png"
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img12.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img12.png"
     },
     {
-        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img19.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img19.png"
+    },
+    {
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_speech_bubble.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\speech_bubble.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img9.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img9.png"
+    },
+    {
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img3.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img3.png"
+    },
+    {
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_capybara_rest_png.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\capybara_rest_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img18.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img18.png"
+    },
+    {
+        "merged": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:\\drawable_default_shop_png.png.flat",
+        "source": "C:\\Users\\ALISON\\.gradle\\daemon\\8.10.2\\com.example.muskly_trainwithme_kmp.android.androidApp-main-45:\\drawable\\default_shop_png.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img8.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img8.png"
+    },
+    {
+        "merged": "com.example.muskly_trainwithme_kmp.android.androidApp-debug-43:/drawable_img17.png.flat",
+        "source": "com.example.muskly_trainwithme_kmp.android.androidApp-main-45:/drawable/img17.png"
     }
 ]

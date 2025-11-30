@@ -67,6 +67,15 @@ int drawable ic_call_decline_low 0x7f04000c
 int drawable ic_launcher_background 0x7f04000d
 int drawable ic_launcher_foreground 0x7f04000e
 int drawable imagen_2025_08_24_143956030_png 0x7f04000f
+int drawable img1 0x7f04001f
+int drawable img11 0x7f040020
+int drawable img12 0x7f040021
+int drawable img17 0x7f040022
+int drawable img18 0x7f040023
+int drawable img19 0x7f040024
+int drawable img3 0x7f040025
+int drawable img8 0x7f040026
+int drawable img9 0x7f040027
 int drawable musktrain 0x7f040010
 int drawable notification_action_background 0x7f040011
 int drawable notification_bg 0x7f040012
