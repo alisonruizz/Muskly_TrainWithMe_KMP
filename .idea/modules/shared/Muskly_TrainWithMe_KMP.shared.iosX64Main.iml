@@ -247,10 +247,6 @@
     <orderEntry type="library" name="Gradle: Kotlin/Native: zlib | ios_x64" level="project" />
     <orderEntry type="library" name="Gradle: Kotlin/Native: _CoreData_CloudKit | ios_x64" level="project" />
     <orderEntry type="library" name="Gradle: Kotlin/Native: _LocationEssentials | ios_x64" level="project" />
-    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-firestore-iosx64:1.12.0" level="project" />
-    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-auth-iosx64:1.12.0" level="project" />
-    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-app-iosx64:1.12.0" level="project" />
-    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-common-iosx64:1.12.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosx64:1.8.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosx64:0.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:0.23.1" level="project" />

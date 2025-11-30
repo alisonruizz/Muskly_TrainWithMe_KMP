@@ -259,10 +259,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: zlib | ios_simulator_arm64" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: _CoreData_CloudKit | ios_simulator_arm64" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: _LocationEssentials | ios_simulator_arm64" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-firestore-iossimulatorarm64:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-auth-iossimulatorarm64:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-app-iossimulatorarm64:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-common-iossimulatorarm64:1.12.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iossimulatorarm64:1.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iossimulatorarm64:0.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:0.23.1" level="project" />

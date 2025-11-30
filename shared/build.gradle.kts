@@ -35,8 +35,7 @@ kotlin {
             // DateTime multiplatform
             implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.0")
             //put your multiplatform dependencies here
-            implementation("dev.gitlive:firebase-firestore:1.12.0") // ejemplo versión
-            implementation("dev.gitlive:firebase-auth:1.12.0") // opcional si necesitas login
+
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

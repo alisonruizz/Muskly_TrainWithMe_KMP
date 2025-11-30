@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml:2:13-83
-INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml:2:13-83
+ADDED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml:2:13-83
+INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml:2:13-83
 	package
-		INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml
+		INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml
 	xmlns:android
-		ADDED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml:2:23-81
+		ADDED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml:2:23-81
 uses-sdk
-INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml reason: use-sdk injection requested
-INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml
-INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml
+INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml reason: use-sdk injection requested
+INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml
+INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml
 	android:targetSdkVersion
-		INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml
+		INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml
 	android:minSdkVersion
-		INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest2847812354203501246.xml
+		INJECTED from C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest5029740983433768915.xml

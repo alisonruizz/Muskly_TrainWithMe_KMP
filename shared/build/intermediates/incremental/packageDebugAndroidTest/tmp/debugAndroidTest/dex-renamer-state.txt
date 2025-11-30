@@ -1,0 +1,13 @@
+#Sun Nov 30 18:11:55 COT 2025
+base.0=C\:\\Universidad\\Octavo\\ApliMovi\\Muskly_TrainWithMe_KMP\\shared\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Universidad\\Octavo\\ApliMovi\\Muskly_TrainWithMe_KMP\\shared\\build\\intermediates\\dex\\debugAndroidTest\\mergeLibDexDebugAndroidTest\\12\\classes.dex
+base.2=C\:\\Universidad\\Octavo\\ApliMovi\\Muskly_TrainWithMe_KMP\\shared\\build\\intermediates\\dex\\debugAndroidTest\\mergeLibDexDebugAndroidTest\\2\\classes.dex
+base.3=C\:\\Universidad\\Octavo\\ApliMovi\\Muskly_TrainWithMe_KMP\\shared\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=classes.dex
+path.1=12/classes.dex
+path.2=2/classes.dex
+path.3=0/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

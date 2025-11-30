@@ -236,20 +236,12 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:tzfileMain:0.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.6.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-firestore:iosMain:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-firestore:commonMain:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-auth:iosMain:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-auth:commonMain:1.12.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:annotationsCommonMain:2.2.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:assertionsCommonMain:2.2.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.23.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.23.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.6.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:commonMain:1.6.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-app:iosMain:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-app:commonMain:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-common:iosMain:1.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-common:commonMain:1.12.0" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="Muskly_TrainWithMe_KMP.shared.appleMain" />
 </module>

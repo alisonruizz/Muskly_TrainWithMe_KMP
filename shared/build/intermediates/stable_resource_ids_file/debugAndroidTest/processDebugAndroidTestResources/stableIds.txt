@@ -1,0 +1,1 @@
+com.example.muskly_trainwithme_kmp.test:drawable/goals_png = 0x7f010000
