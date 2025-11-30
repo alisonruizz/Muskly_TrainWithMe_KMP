@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.gitlive:firebase-auth-android-debug:1.12.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/8.14/transforms/ebcdc842cccb606c14e945a07580e02c/transformed/firebase-auth-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/8.14/transforms/ebcdc842cccb606c14e945a07580e02c/transformed/firebase-auth-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.gitlive/firebase-auth-android-debug/1.12.0/a2631880cacac64f7d4bd09c3078ac47a84bf1e0/firebase-auth-android-debug-1.12.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.gitlive/firebase-auth-android-debug/1.12.0/ce64495edada2c100bd82c3ee6f4bf86ce832803/firebase-auth-android-debug-1.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

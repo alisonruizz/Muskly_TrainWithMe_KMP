@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:tzdbOnFilesystemMain:0.6.0" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-datetime" version="0.6.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-datetime-0.6.0-tzdbOnFilesystemMain-v1Leig.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.6.0/6ea72ae3c55b5f7ec5bfb005ccc37c81d2737637/kotlinx-datetime-0.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.gitlive:firebase-auth-iosarm64:1.12.0" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="dev.gitlive" artifactId="firebase-auth-iosarm64" version="1.12.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.gitlive/firebase-auth-iosarm64/1.12.0/ee58f4274745c38ace8f49ebdb809b38e3a3a086/firebase-auth.klib!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.gitlive/firebase-auth-iosarm64/1.12.0/621fb4ff6c8de0063d4d9887289c1f51f54fe179/firebase-auth-cinterop-FirebaseAuth.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.gitlive/firebase-auth-iosarm64/1.12.0/a73662ec642a172cb731e2078ef6859a9492acc/firebase-auth-iosarm64-1.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

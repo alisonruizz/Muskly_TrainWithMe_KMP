@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":shared:iosArm64Test" external.linked.project.path="$MODULE_DIR$/../../../shared" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Muskly_TrainWithMe_KMP" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="Native (ios_arm64) " allPlatforms="Native []/Native [ios_arm64]" useProjectSettings="false" isTestModule="true" externalProjectId=":shared" isHmppProject="true">
+        <dependsOnModuleNames>
+          <dependsOn>:shared:iosTest</dependsOn>
+          <dependsOn>:shared:appleTest</dependsOn>
+          <dependsOn>:shared:nativeTest</dependsOn>
+          <dependsOn>:shared:commonTest</dependsOn>
+        </dependsOnModuleNames>
+        <additionalVisibleModuleNames>
+          <friend>:shared:iosArm64Main</friend>
+          <friend>:shared:iosMain</friend>
+          <friend>:shared:appleMain</friend>
+          <friend>:shared:nativeMain</friend>
+          <friend>:shared:commonMain</friend>
+        </additionalVisibleModuleNames>
+        <sourceSets>
+          <sourceSet>Muskly_TrainWithMe_KMP.shared.iosTest</sourceSet>
+          <sourceSet>Muskly_TrainWithMe_KMP.shared.appleTest</sourceSet>
+          <sourceSet>Muskly_TrainWithMe_KMP.shared.nativeTest</sourceSet>
+          <sourceSet>Muskly_TrainWithMe_KMP.shared.commonTest</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xexport-kdoc -nopack -nostdlib" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="debug" arg="true" />
+            <flagArg name="enableAssertions" arg="true" />
+            <flagArg name="noendorsedlibs" arg="true" />
+            <flagArg name="multiPlatform" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="moduleName" arg="Muskly_TrainWithMe_KMP:shared_test" />
+            <stringArg name="outputName" arg="C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\shared\build\classes\kotlin\iosArm64\test\klib\shared_test" />
+            <stringArg name="produce" arg="library" />
+            <stringArg name="shortModuleName" arg="shared_test" />
+            <stringArg name="target" arg="ios_arm64" />
+            <stringArg name="apiVersion" arg="2.2" />
+            <stringArg name="languageVersion" arg="2.2" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="fragmentRefines">
+              <args>
+                <arg>iosArm64Test:iosTest</arg>
+                <arg>iosTest:appleTest</arg>
+                <arg>appleTest:nativeTest</arg>
+                <arg>nativeTest:commonTest</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="fragments">
+              <args>
+                <arg>iosArm64Test</arg>
+                <arg>iosTest</arg>
+                <arg>appleTest</arg>
+                <arg>nativeTest</arg>
+                <arg>commonTest</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../shared/build/classes/kotlin/iosArm64/test/klib" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../shared/src/iosArm64Test" />
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.iosTest" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.appleTest" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.nativeTest" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.commonTest" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.iosArm64Main" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.iosMain" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.appleMain" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.nativeMain" scope="TEST" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.commonMain" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: stdlib" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Accelerate | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Accessibility | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AccessorySetupKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Accounts | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AddressBook | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AddressBookUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AdServices | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AdSupport | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AlarmKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AppClip | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AppTrackingTransparency | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ARKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AssetsLibrary | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AudioToolbox | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AuthenticationServices | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AutomaticAssessmentConfiguration | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AVFAudio | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AVFoundation | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AVKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: AVRouting | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: BackgroundAssets | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: BackgroundTasks | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: BrowserEngineCore | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: BrowserEngineKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: BrowserKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: builtin | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: BusinessChat | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CallKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CarPlay | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CFCGTypes | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CFNetwork | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Cinematic | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ClassKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ClockKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CloudKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ColorSync | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CommonCrypto | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Contacts | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ContactsUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreAudio | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreAudioKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreAudioTypes | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreBluetooth | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreData | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreFoundation | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreFoundationBase | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreGraphics | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreHaptics | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreImage | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreLocation | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreLocationUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreMedia | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreMIDI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreML | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreMotion | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreNFC | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreServices | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreSpotlight | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreTelephony | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreText | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CoreVideo | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: CryptoTokenKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: darwin | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: DataDetection | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: DeviceCheck | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: DeviceDiscoveryExtension | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: EAGL | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: EventKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: EventKitUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ExposureNotification | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ExtensionFoundation | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ExtensionKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ExternalAccessory | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: FileProvider | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: FileProviderUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Foundation | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: GameController | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: GameKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: GameplayKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: GameSave | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: GLKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: GSS | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: HealthKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: HealthKitUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: HomeKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: iAd | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: iconv | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: IdentityLookup | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: IdentityLookupUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ImageCaptureCore | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ImageIO | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Intents | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: IntentsUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: IOSurface | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: JavaScriptCore | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: LinkPresentation | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: LocalAuthentication | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: LocalAuthenticationEmbeddedUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: LockedCameraCapture | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MapKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Matter | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MediaAccessibility | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MediaPlayer | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MediaSetup | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MediaToolbox | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Messages | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MessageUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Metal | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MetalFX | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MetalKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MetalPerformanceShaders | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MetalPerformanceShadersGraph | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MetricKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MLCompute | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MobileCoreServices | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ModelIO | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: MultipeerConnectivity | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: NaturalLanguage | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: NearbyInteraction | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Network | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: NetworkExtension | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: NotificationCenter | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: objc | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: OpenAL | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: OpenGLES | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: OpenGLES2 | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: OpenGLES3 | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: OpenGLESCommon | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: PassKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: PDFKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: PencilKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: PHASE | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Photos | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: PhotosUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: posix | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: PushKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: PushToTalk | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: QuartzCore | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: QuickLook | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: QuickLookThumbnailing | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ReplayKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SafariServices | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SafetyKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SceneKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ScreenTime | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Security | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SecurityUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SensitiveContentAnalysis | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SensorKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SharedWithYou | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SharedWithYouCore | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ShazamKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Social | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SoundAnalysis | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Speech | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SpriteKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: StoreKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Symbols | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: SystemConfiguration | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: ThreadNetwork | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: TouchController | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Twitter | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: UIKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: UIUtilities | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: UniformTypeIdentifiers | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: UserNotifications | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: UserNotificationsUI | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: VideoSubscriberAccount | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: VideoToolbox | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: Vision | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: VisionKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: WatchConnectivity | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: WebKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: zlib | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: _CoreData_CloudKit | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: Kotlin/Native: _LocationEssentials | ios_arm64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-firestore-iosarm64:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-auth-iosarm64:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-app-iosarm64:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: dev.gitlive:firebase-common-iosarm64:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:1.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosarm64:0.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:0.23.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-iosarm64:1.6.2" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="Muskly_TrainWithMe_KMP.shared.iosArm64Main" />
+</module>

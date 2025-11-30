@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":shared:nativeMain" external.linked.project.path="$MODULE_DIR$/../../../shared" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Muskly_TrainWithMe_KMP" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="Common (experimental) " allPlatforms="Native []/Native [ios_arm64]/Native [ios_simulator_arm64]/Native [ios_x64]" useProjectSettings="false" isTestModule="false" externalProjectId=":shared" isHmppProject="true">
+        <dependsOnModuleNames>:shared:commonMain</dependsOnModuleNames>
+        <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="multiPlatform" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="apiVersion" arg="2.2" />
+            <stringArg name="languageVersion" arg="2.2" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/2.2.21/144a2d8fc77a7e95ba7a7b6992091a60baf2e0dc/kotlin-scripting-jvm-2.2.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/2.2.21/9d3b00063626c0775dd91d1fc5c699d5a6e62e4e/kotlin-scripting-common-2.2.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.21/fa374a986e128314c3db00a20aae55f72a258511/kotlin-stdlib-2.2.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/2.2.21/e9b021c4e335e4ed7a7e3b32285249ae6bb3a6c8/kotlin-script-runtime-2.2.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../shared/src/nativeMain" />
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Muskly_TrainWithMe_KMP.shared.commonMain" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: stdlib" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Accelerate | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Accessibility | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AccessorySetupKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Accounts | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AddressBook | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AddressBookUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AdServices | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AdSupport | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AlarmKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AppClip | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AppTrackingTransparency | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ARKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AssetsLibrary | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AudioToolbox | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AuthenticationServices | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AutomaticAssessmentConfiguration | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AVFAudio | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AVFoundation | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AVKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: AVRouting | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: BackgroundAssets | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: BackgroundTasks | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: BrowserEngineCore | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: BrowserEngineKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: BrowserKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: builtin | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: BusinessChat | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CallKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CarPlay | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CFCGTypes | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CFNetwork | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Cinematic | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ClassKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ClockKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CloudKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ColorSync | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CommonCrypto | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Contacts | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ContactsUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreAudio | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreAudioKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreAudioTypes | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreBluetooth | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreData | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreFoundation | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreFoundationBase | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreGraphics | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreHaptics | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreImage | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreLocation | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreLocationUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreMedia | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreMIDI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreML | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreMotion | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreNFC | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreServices | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreSpotlight | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreTelephony | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreText | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CoreVideo | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: CryptoTokenKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: darwin | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: DataDetection | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: DeviceCheck | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: DeviceDiscoveryExtension | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: EAGL | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: EventKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: EventKitUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ExposureNotification | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ExtensionFoundation | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ExtensionKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ExternalAccessory | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: FileProvider | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: FileProviderUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Foundation | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: GameController | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: GameKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: GameplayKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: GameSave | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: GLKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: GSS | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: HealthKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: HealthKitUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: HomeKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: iAd | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: iconv | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: IdentityLookup | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: IdentityLookupUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ImageCaptureCore | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ImageIO | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Intents | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: IntentsUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: IOSurface | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: JavaScriptCore | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: LinkPresentation | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: LocalAuthentication | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: LocalAuthenticationEmbeddedUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: LockedCameraCapture | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MapKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Matter | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MediaAccessibility | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MediaPlayer | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MediaSetup | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MediaToolbox | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Messages | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MessageUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Metal | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MetalFX | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MetalKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MetalPerformanceShaders | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MetalPerformanceShadersGraph | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MetricKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MLCompute | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MobileCoreServices | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ModelIO | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: MultipeerConnectivity | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: NaturalLanguage | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: NearbyInteraction | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Network | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: NetworkExtension | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: NotificationCenter | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: objc | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: OpenAL | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: OpenGLES | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: OpenGLES2 | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: OpenGLES3 | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: OpenGLESCommon | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: PassKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: PDFKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: PencilKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: PHASE | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Photos | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: PhotosUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: posix | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: PushKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: PushToTalk | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: QuartzCore | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: QuickLook | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: QuickLookThumbnailing | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ReplayKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SafariServices | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SafetyKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SceneKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ScreenTime | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Security | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SecurityUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SensitiveContentAnalysis | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SensorKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SharedWithYou | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SharedWithYouCore | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ShazamKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Social | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SoundAnalysis | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Speech | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SpriteKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: StoreKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Symbols | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: SystemConfiguration | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: ThreadNetwork | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: TouchController | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Twitter | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: UIKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: UIUtilities | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: UniformTypeIdentifiers | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: UserNotifications | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: UserNotificationsUI | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: VideoSubscriberAccount | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: VideoToolbox | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: Vision | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: VisionKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: WatchConnectivity | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: WebKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: zlib | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: _CoreData_CloudKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: Kotlin/Native: _LocationEssentials | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:tzdbOnFilesystemMain:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:tzfileMain:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-firestore:iosMain:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-firestore:commonMain:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-auth:iosMain:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-auth:commonMain:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.23.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.23.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:commonMain:1.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-app:iosMain:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-app:commonMain:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-common:iosMain:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: dev.gitlive:firebase-common:commonMain:1.12.0" level="project" />
+  </component>
+</module>

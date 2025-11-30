@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:commonMain:2.2.21" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib" version="2.2.21" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlin-kotlin-stdlib-2.2.21-commonMain-Y8sbrw.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.21/bd4e3cc059a403f4a0a4f8543c66b1535976956/kotlin-stdlib-2.2.21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
