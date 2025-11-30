@@ -5,5 +5,5 @@ enum class NavRoutes {
     Train,
     Tips,
     Goals,
-    //Shop
+    Shop,
 }

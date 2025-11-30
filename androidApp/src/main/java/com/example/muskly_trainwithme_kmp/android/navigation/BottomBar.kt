@@ -31,7 +31,7 @@ fun BottomNavigationBar(
         Triple(NavRoutes.Train, "Train", Icons.Default.Person),
         Triple(NavRoutes.Tips, "Tips", Icons.Default.List),
         Triple(NavRoutes.Goals, "Goals", Icons.Default.Star),
-        //Triple(NavRoutes.Shop, "Shop", Icons.Default.ShoppingCart)
+        Triple(NavRoutes.Shop, "Shop", Icons.Default.ShoppingCart)
     )
 
     Box(

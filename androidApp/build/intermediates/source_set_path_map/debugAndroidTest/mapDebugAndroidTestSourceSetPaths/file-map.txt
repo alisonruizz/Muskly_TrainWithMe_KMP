@@ -1,0 +1,4 @@
+com.example.muskly_trainwithme_kmp.android.test.androidApp-androidTest-0 C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\androidApp\build\generated\res\resValues\androidTest\debug
+com.example.muskly_trainwithme_kmp.android.test.androidApp-mergeDebugAndroidTestResources-1 C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\androidApp\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.muskly_trainwithme_kmp.android.test.androidApp-mergeDebugAndroidTestResources-2 C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\androidApp\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.muskly_trainwithme_kmp.android.test.androidApp-debugAndroidTest-3 C:\Universidad\Octavo\ApliMovi\Muskly_TrainWithMe_KMP\androidApp\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

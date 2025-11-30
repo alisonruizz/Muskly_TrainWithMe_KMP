@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.dp
 import com.example.muskly_trainwithme.goalsscreen.GoalsScreen
 import com.example.muskly_trainwithme_kmp.android.Screens.TipsScreen
 import com.example.muskly_trainwithme_kmp.android.Screens.Train.TrainScreen
-import com.example.muskly_trainwithme_kmp.android.screens.HomeScreen
+import com.example.muskly_trainwithme_kmp.android.screens.*
 
 @Composable
 fun AppNavigation() {
@@ -25,7 +25,7 @@ fun AppNavigation() {
             NavRoutes.Train -> TrainScreen()
             NavRoutes.Tips -> TipsScreen()
             NavRoutes.Goals -> GoalsScreen(onRewardEarned = {})
-            //NavRoutes.Shop -> ShopScreen()
+            NavRoutes.Shop -> Shop_Screen()
         }
 
         // -------- BOTTOM BAR --------
