@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.android.screens
+package org.example.musklytrainwithmekmp.screens
 
 
 import androidx.compose.animation.AnimatedVisibility
@@ -20,8 +20,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.muskly_trainwithme_kmp.Item
-import com.example.muskly_trainwithme_kmp.ShopViewModel
+import org.example.musklytrainwithmekmp.Item
+import org.example.musklytrainwithmekmp.ShopViewModel
 
 import muskly_trainwithme_kmp.composeapp.generated.resources.Res
 import muskly_trainwithme_kmp.composeapp.generated.resources.chiguicoin_png

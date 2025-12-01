@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.android.Screens.Train
+package org.example.musklytrainwithmekmp.screens
 
 
 import androidx.compose.foundation.layout.Column
@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.unit.dp
-import com.example.muskly_trainwithme_kmp.Train.Exercise
+import org.example.musklytrainwithmekmp.Exercise
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.*

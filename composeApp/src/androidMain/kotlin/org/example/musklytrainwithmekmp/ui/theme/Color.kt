@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.ui.theme
+package org.example.musklytrainwithmekmp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

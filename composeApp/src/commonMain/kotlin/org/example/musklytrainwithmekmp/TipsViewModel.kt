@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp
+package org.example.musklytrainwithmekmp
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

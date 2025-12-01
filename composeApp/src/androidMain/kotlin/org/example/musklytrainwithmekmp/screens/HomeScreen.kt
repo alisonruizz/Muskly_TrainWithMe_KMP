@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.android.screens
+package org.example.musklytrainwithmekmp.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,12 +14,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.muskly_trainwithme_kmp.ui.theme.Muskly_TrainWithMeTheme
+import org.example.musklytrainwithmekmp.ui.theme.Muskly_TrainWithMeTheme
 import muskly_trainwithme_kmp.composeapp.generated.resources.Res
 import muskly_trainwithme_kmp.composeapp.generated.resources.capybara_rest_png
 import muskly_trainwithme_kmp.composeapp.generated.resources.capybara_train_png

@@ -1,6 +1,6 @@
-package com.example.muskly_trainwithme_kmp.Train
+package org.example.musklytrainwithmekmp
 
-// commonMain/viewmodel/TrainingViewModel.kt
+
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update

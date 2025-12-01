@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.android.screens
+package org.example.musklytrainwithmekmp.screens
 
 import android.os.Build
 import androidx.annotation.RequiresApi
@@ -44,9 +44,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.muskly_trainwithme_kmp.Goal
-import com.example.muskly_trainwithme_kmp.GoalsViewModel
-import com.example.muskly_trainwithme_kmp.ui.theme.Muskly_TrainWithMeTheme
+import org.example.musklytrainwithmekmp.Goal
+import org.example.musklytrainwithmekmp.GoalsViewModel
+import org.example.musklytrainwithmekmp.ui.theme.Muskly_TrainWithMeTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import muskly_trainwithme_kmp.composeapp.generated.resources.Res

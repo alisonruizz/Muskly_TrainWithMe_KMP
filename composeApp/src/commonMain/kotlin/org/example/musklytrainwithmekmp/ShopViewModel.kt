@@ -1,13 +1,13 @@
-package com.example.muskly_trainwithme_kmp
+package org.example.musklytrainwithmekmp
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.filterNotNull
+import kotlin.random.Random
 
 data class Item(
-    val id: String = kotlin.random.Random.nextInt().toString(),
+    val id: String = Random.nextInt().toString(),
     val name: String,
     val price: Int,
     val icon: String,

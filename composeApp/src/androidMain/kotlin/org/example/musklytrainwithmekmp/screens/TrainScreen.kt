@@ -16,14 +16,12 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.*
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalFocusManager
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.muskly_trainwithme_kmp.Train.TrainViewModel
-import com.example.muskly_trainwithme_kmp.android.Screens.Train.AddExerciseSheet
-import com.example.muskly_trainwithme_kmp.android.screens.TipsScreen
-import com.example.muskly_trainwithme_kmp.ui.theme.Muskly_TrainWithMeTheme
+import org.example.musklytrainwithmekmp.TrainViewModel
+import org.example.musklytrainwithmekmp.screens.AddExerciseSheet
+import org.example.musklytrainwithmekmp.ui.theme.Muskly_TrainWithMeTheme
 import muskly_trainwithme_kmp.composeapp.generated.resources.Res
 import muskly_trainwithme_kmp.composeapp.generated.resources.musktrain
 import org.jetbrains.compose.resources.painterResource

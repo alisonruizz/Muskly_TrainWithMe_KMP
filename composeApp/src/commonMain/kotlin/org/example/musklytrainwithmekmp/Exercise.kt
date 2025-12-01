@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.Train
+package org.example.musklytrainwithmekmp
 
 
 data class Exercise(

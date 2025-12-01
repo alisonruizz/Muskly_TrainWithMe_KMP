@@ -1,4 +1,4 @@
-package com.example.muskly_trainwithme_kmp.android.navigation
+package org.example.musklytrainwithmekmp.navigation
 
 enum class NavRoutes {
     Home,
