@@ -2,11 +2,8 @@ package org.example.musklytrainwithmekmp
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.datetime.Clock
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.isoDayNumber
-import kotlinx.datetime.toLocalDateTime
-
+import java.time.LocalDate
+import java.time.DayOfWeek
 
 data class Goal(
     val id: Int,
@@ -56,16 +53,15 @@ class GoalsViewModel {
     }
 
     private fun resetGoalsIfMonday() {
-        val now = Clock.System.now()
-        val date = now.toLocalDateTime(TimeZone.currentSystemDefault()).date
-        val day = date.dayOfWeek
+        val today = LocalDate.now()
+        val day = today.dayOfWeek
 
-        if (day.isoDayNumber == 1) { // Lunes
+        if (day == DayOfWeek.MONDAY) {
             _goals.value = _goals.value.map { it.copy(completed = false) }
         }
     }
 
     fun resetAllGoals() {
-        _goals.value = _goals.value.map { it.copy(completed = false)}
-        }
+        _goals.value = _goals.value.map { it.copy(completed = false) }
+    }
 }

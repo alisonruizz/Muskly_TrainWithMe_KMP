@@ -38,9 +38,8 @@ kotlin {
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
             implementation(compose.material3)               // ya lo debes tener
             implementation(compose.materialIconsExtended)
-
             // DateTime multiplatform
-            implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.0")
+            implementation(libs.kotlinx.datetime)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
