@@ -1,0 +1,8 @@
+CREATE TABLE GoalCompleted (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    petId INTEGER NOT NULL,
+    goalName TEXT NOT NULL,
+    completedAt INTEGER NOT NULL, -- timestamp
+
+    FOREIGN KEY (petId) REFERENCES Pet(id)
+);

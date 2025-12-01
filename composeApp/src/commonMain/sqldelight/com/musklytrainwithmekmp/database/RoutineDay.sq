@@ -1,0 +1,7 @@
+CREATE TABLE RoutineDay (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    routineId INTEGER NOT NULL,
+    dayOfWeek INTEGER NOT NULL, -- 1=Lunes ... 7=Domingo
+
+    FOREIGN KEY (routineId) REFERENCES Routine(id)
+);

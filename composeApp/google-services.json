@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161488293526",
+    "project_id": "muskly-f34c7",
+    "storage_bucket": "muskly-f34c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161488293526:android:b333843357506ec185fcb7",
+        "android_client_info": {
+          "package_name": "org.example.musklytrainwithmekmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD05ofQ30kUUcmm9cKnj9ZUgLk5CD8vmUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

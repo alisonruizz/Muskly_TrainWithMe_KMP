@@ -1,0 +1,10 @@
+CREATE TABLE Exercise (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    routineDayId INTEGER NOT NULL,
+    exerciseName TEXT NOT NULL,
+    series INTEGER NOT NULL,
+    repetitions INTEGER NOT NULL,
+    weight REAL NOT NULL DEFAULT 0,
+
+    FOREIGN KEY (routineDayId) REFERENCES RoutineDay(id)
+);
