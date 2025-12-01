@@ -1,12 +1,13 @@
 package org.example.musklytrainwithmekmp
 
 
+import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.flow.asStateFlow
 
-class TrainViewModel {
+class TrainViewModel : ViewModel(){
 
     private val _routines = MutableStateFlow<Map<String, List<Exercise>>>(emptyMap())
     val routines: StateFlow<Map<String, List<Exercise>>> = _routines.asStateFlow()

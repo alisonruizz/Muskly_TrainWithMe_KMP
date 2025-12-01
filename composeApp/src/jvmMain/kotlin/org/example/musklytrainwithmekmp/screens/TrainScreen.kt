@@ -1,8 +1,5 @@
-package com.example.muskly_trainwithme_kmp.android.screens.Train
+package org.example.musklytrainwithmekmp.screens
 
-
-import android.os.Build
-import androidx.annotation.RequiresApi
 import androidx.compose.foundation.*
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
@@ -13,101 +10,78 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.ui.*
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalFocusManager
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import org.example.musklytrainwithmekmp.TrainViewModel
-import org.example.musklytrainwithmekmp.screens.AddExerciseSheet
-import org.example.musklytrainwithmekmp.ui.theme.Muskly_TrainWithMeTheme
 import muskly_trainwithme_kmp.composeapp.generated.resources.Res
 import muskly_trainwithme_kmp.composeapp.generated.resources.musktrain
 import org.jetbrains.compose.resources.painterResource
 
 @OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3Api::class)
 @Composable
-
-fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
+fun TrainScreen(
+    viewModel: TrainViewModel = viewModel { TrainViewModel() }
+) {
 
     val routines by viewModel.routines.collectAsState()
     var petName by rememberSaveable { mutableStateOf("") }
     var selectedDay by rememberSaveable { mutableStateOf<String?>(null) }
     var showForm by rememberSaveable { mutableStateOf(false) }
-    val focusManager = LocalFocusManager.current
-
 
     val days = listOf("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text("Create your new routine")},
-                colors = androidx.compose.material3.TopAppBarDefaults.topAppBarColors(
+                title = { Text("Create your new routine") },
+                colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                    titleContentColor = MaterialTheme.colorScheme.onSurfaceVariant,
-
-                    ),
-
                 )
-        },
-        containerColor = MaterialTheme.colorScheme.secondaryContainer
-    ) { innerPadding ->
+            )
+        }
+    ) { padding ->
 
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(MaterialTheme.colorScheme.secondaryContainer)
+                .padding(padding)
                 .verticalScroll(rememberScrollState())
-                .padding(innerPadding)
-                .clickable(
-                    // Si toca fuera del campo, quita el foco del teclado
-                    indication = null,
-                    interactionSource = remember { MutableInteractionSource() }
-                ) { focusManager.clearFocus() }
+                .background(MaterialTheme.colorScheme.secondaryContainer)
         ) {
 
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                Spacer(Modifier.height(12.dp))
-                Image(
-                    painter = painterResource(Res.drawable.musktrain),
-                    contentDescription = null,
-                    modifier = Modifier.height(140.dp).fillMaxWidth()
-                )
-            }
+            Spacer(Modifier.height(12.dp))
+            Image(
+                painter = painterResource(Res.drawable.musktrain),
+                contentDescription = null,
+                modifier = Modifier.height(160.dp).fillMaxWidth()
+            )
 
-
-            // CARD CON TENIDO
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
                     .background(MaterialTheme.colorScheme.secondary, RoundedCornerShape(20.dp))
-                    .padding(16.dp)
+                    .padding(18.dp)
             ) {
 
-                // 🔹 TextField "Pet name"
+                //----------------- NAME FIELD -----------------//
                 OutlinedTextField(
                     value = petName,
                     onValueChange = { petName = it },
                     label = { Text("Pet name") },
                     shape = CircleShape,
                     colors = TextFieldDefaults.colors(
-                        focusedLabelColor = Color.White,
-                        // Color del contenedor cuando no está enfocado
                         unfocusedContainerColor = MaterialTheme.colorScheme.outlineVariant,
-                        // Color del contenedor cuando está enfocado
-                        focusedContainerColor = MaterialTheme.colorScheme.primaryContainer
+                        focusedContainerColor = MaterialTheme.colorScheme.primaryContainer,
                     ),
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        //.background(MaterialTheme.colorScheme.outlineVariant)
-                        .padding(vertical = 4.dp),)
+                    modifier = Modifier.fillMaxWidth()
+                )
 
                 Spacer(Modifier.height(16.dp))
 
-                // FlowRow = tus días semanales
+                //----------------- DAYS -----------------//
                 FlowRow(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
@@ -116,20 +90,20 @@ fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
                         Button(
                             onClick = { selectedDay = day },
                             colors = ButtonDefaults.buttonColors(
-                                containerColor = if (selectedDay == day)
-                                    MaterialTheme.colorScheme.primaryContainer
-                                else MaterialTheme.colorScheme.outlineVariant
+                                containerColor =
+                                    if (selectedDay == day) MaterialTheme.colorScheme.primaryContainer
+                                    else MaterialTheme.colorScheme.outlineVariant
                             ),
-                            modifier = Modifier.padding(horizontal = 2.dp)
+                            modifier = Modifier.padding(2.dp)
                         ) {
-                            Text(day, fontSize = 12.sp,
-                                color = MaterialTheme.colorScheme.outline)
+                            Text(day, fontSize = 12.sp, color = MaterialTheme.colorScheme.outline)
                         }
                     }
                 }
 
                 Spacer(Modifier.height(16.dp))
 
+                //----------------- EXERCISES -----------------//
                 selectedDay?.let { day ->
                     val exercises = routines[day] ?: emptyList()
 
@@ -141,44 +115,36 @@ fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
                                 Row(
                                     modifier = Modifier
                                         .fillMaxWidth()
-                                        .background(
-                                            MaterialTheme.colorScheme.outlineVariant,
-                                            RoundedCornerShape(12.dp)
-                                        )
+                                        .background(MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp))
                                         .padding(12.dp),
                                     horizontalArrangement = Arrangement.SpaceBetween
                                 ) {
                                     Column {
-                                        Text(ex.name, style = MaterialTheme.typography.titleSmall)
-                                        Text("${ex.series}x${ex.reps} @ ${ex.weight}kg")
+                                        Text(ex.name, fontSize = 18.sp)
+                                        Text("${ex.series}x${ex.reps} @ ${ex.weight}kg", fontSize = 14.sp)
                                     }
 
                                     IconButton(onClick = { viewModel.removeExercise(day, index) }) {
-                                        Icon(
-                                            Icons.Default.Delete,
-                                            contentDescription = "Delete",
-                                            tint = Color.Red
-                                        )
+                                        Icon(Icons.Default.Delete, contentDescription = null, tint = Color.Red)
                                     }
                                 }
                             }
                         }
                     }
 
-                    Spacer(Modifier.height(14.dp))
+                    Spacer(Modifier.height(16.dp))
 
                     Button(
-                        onClick = { showForm = true },
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(16.dp)
-                    ) {
-                        Text("Add exercise")
-                    }
+                        shape = RoundedCornerShape(16.dp),
+                        onClick = { showForm = true }
+                    ) { Text("Add exercise") }
                 }
             }
         }
     }
-    // Sheet para agregar ejercicio
+
+    //----------------- BOTTOM SHEET ADD -----------------//
     if (showForm) {
         AddExerciseSheet(
             onSave = { exercise ->
@@ -189,12 +155,3 @@ fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
         )
     }
 }
-@RequiresApi(Build.VERSION_CODES.O)
-@Preview(showBackground = true, showSystemUi = true)
-@Composable
-fun GoalsScreenPreview() {
-    Muskly_TrainWithMeTheme {
-        TrainScreen()
-    }
-}
-
