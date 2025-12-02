@@ -4,7 +4,6 @@ import androidx.compose.runtime.setValue
 
 
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -21,10 +20,10 @@ import org.example.musklytrainwithmekmp.screens.ShopScreen
 import org.example.musklytrainwithmekmp.screens.TrainScreen
 
 @Composable
-fun AppNavigation() {
+fun AppNavigation(modifier: Modifier) {
     var selectedTab by rememberSaveable { mutableStateOf(NavRoutes.Home) }
 
-    Box(modifier = Modifier.fillMaxSize()) {
+    Box(modifier = modifier) {
 
         // -------- CONTENIDO PRINCIPAL --------
         when (selectedTab) {
