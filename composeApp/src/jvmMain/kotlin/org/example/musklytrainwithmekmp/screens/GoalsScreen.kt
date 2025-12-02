@@ -15,7 +15,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -31,16 +30,12 @@ import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.ui.unit.IntOffset
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.IntSize
-import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
-import androidx.compose.ui.graphics.drawscope.DrawScope
+
 //import androidx.compose.ui.graphics.drawscope.drawPath
 
 @OptIn(ExperimentalAnimationApi::class)
 @Composable
-fun GoalsScreen(viewModel: GoalsViewModel? = null) {
+fun GoalsScreen(viewModel: GoalsViewModel? = null, onRewardEarned: () -> Unit) {
     // IMPORTANT: keep single instance across recompositions
     val vm = viewModel ?: remember { GoalsViewModel() }
 
@@ -197,7 +192,7 @@ fun SpeechBubble(content: @Composable () -> Unit) {
     Box {
         Box(
             modifier = Modifier
-                .background(Color.White, RoundedCornerShape(16.dp)) // <-- background blanco según pediste
+                .background(Color.White, RoundedCornerShape(16.dp))
                 .padding(8.dp)
         ) {
             content()
@@ -253,6 +248,6 @@ fun SortMenu(sortOption: String, onSelect: (String) -> Unit) {
 @Composable
 fun GoalsScreenPreview() {
     Muskly_TrainWithMeThemeDesktop {
-        GoalsScreen()
+        GoalsScreen(onRewardEarned = {})
     }
 }
