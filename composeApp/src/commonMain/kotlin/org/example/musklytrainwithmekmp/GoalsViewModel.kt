@@ -1,5 +1,6 @@
 package org.example.musklytrainwithmekmp
 
+import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import java.time.LocalDate
@@ -12,7 +13,7 @@ data class Goal(
     val completed: Boolean = false
 )
 
-class GoalsViewModel {
+class GoalsViewModel : ViewModel() {
 
     // Lista inicial de retos
     private val initialGoals = listOf(

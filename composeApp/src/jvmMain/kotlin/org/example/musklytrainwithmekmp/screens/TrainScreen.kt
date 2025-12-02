@@ -15,7 +15,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import org.example.musklytrainwithmekmp.TrainViewModel
 import muskly_trainwithme_kmp.composeapp.generated.resources.Res
 import muskly_trainwithme_kmp.composeapp.generated.resources.musktrain
 import org.jetbrains.compose.resources.painterResource

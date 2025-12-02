@@ -7,7 +7,8 @@ plugins {
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.composeHotReload)
-    alias(libs.plugins.sqldelight)
+    id("com.google.gms.google-services")
+
 }
 
 kotlin {
@@ -25,6 +26,7 @@ kotlin {
             implementation(libs.androidx.activity.compose)
             implementation(compose.material3)               // ya lo debes tener
             implementation(compose.materialIconsExtended)
+            implementation(project.dependencies.platform(libs.android.firebase.bom))
 
         }
         commonMain.dependencies {
@@ -41,6 +43,8 @@ kotlin {
             implementation(compose.materialIconsExtended)
             // DateTime multiplatform
             implementation(libs.kotlinx.datetime)
+            implementation(libs.gitlive.firebase.firestore)
+
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -95,11 +99,3 @@ compose.desktop {
     }
 }
 
-sqldelight {
-    databases {
-
-        create("AppDatabase") {
-            packageName.set("com.musklytrainwithmekmp.database")
-        }
-    }
-}

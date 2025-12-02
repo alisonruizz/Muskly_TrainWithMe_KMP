@@ -20,11 +20,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import org.example.musklytrainwithmekmp.TrainViewModel
+import com.example.muskly_trainwithme_kmp.android.userID
 import org.example.musklytrainwithmekmp.screens.AddExerciseSheet
 import org.example.musklytrainwithmekmp.ui.theme.Muskly_TrainWithMeTheme
 import muskly_trainwithme_kmp.composeapp.generated.resources.Res
 import muskly_trainwithme_kmp.composeapp.generated.resources.musktrain
+import org.example.musklytrainwithmekmp.TrainViewModel
 import org.jetbrains.compose.resources.painterResource
 
 @OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3Api::class)
@@ -32,11 +33,26 @@ import org.jetbrains.compose.resources.painterResource
 
 fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
 
+    val firebasePetName by viewModel.petName.collectAsState()
     val routines by viewModel.routines.collectAsState()
+
     var petName by rememberSaveable { mutableStateOf("") }
     var selectedDay by rememberSaveable { mutableStateOf<String?>(null) }
     var showForm by rememberSaveable { mutableStateOf(false) }
     val focusManager = LocalFocusManager.current
+    val isPetNameLocked by viewModel.isPetNameLocked.collectAsState()
+
+    // Cargar datos apenas abra pantalla
+    LaunchedEffect(Unit) {
+        viewModel.loadRoutineFromFirebase(userId = userID)
+    }
+
+// Cuando el nombre desde Firebase cambie → actualizar TextField
+    LaunchedEffect(firebasePetName) {
+        if (firebasePetName.isNotEmpty()) {
+            petName = firebasePetName   // ← aquí sí funciona
+        }
+    }
 
 
     val days = listOf("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
@@ -91,6 +107,7 @@ fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
                 OutlinedTextField(
                     value = petName,
                     onValueChange = { petName = it },
+                    enabled = !isPetNameLocked,   // 🔒 No editable si ya existe,
                     label = { Text("Pet name") },
                     shape = CircleShape,
                     colors = TextFieldDefaults.colors(
@@ -153,7 +170,12 @@ fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
                                         Text("${ex.series}x${ex.reps} @ ${ex.weight}kg")
                                     }
 
-                                    IconButton(onClick = { viewModel.removeExercise(day, index) }) {
+                                    IconButton(onClick = {
+                                        viewModel.removeExercise(day, index)
+                                        viewModel.updateRoutineInFirebase(userID) { success ->  // ← CAMBIO AQUÍ
+                                            if (success) println("Rutina actualizada con éxito")
+                                            else println("Error al actualizar")
+                                        }}) {
                                         Icon(
                                             Icons.Default.Delete,
                                             contentDescription = "Delete",
@@ -174,21 +196,29 @@ fun TrainScreen( viewModel: TrainViewModel = viewModel { TrainViewModel() }) {
                     ) {
                         Text("Add exercise")
                     }
+                    Spacer(Modifier.height(10.dp))
                 }
             }
         }
+
     }
     // Sheet para agregar ejercicio
     if (showForm) {
         AddExerciseSheet(
             onSave = { exercise ->
                 viewModel.addExercise(selectedDay!!, exercise)
+                viewModel.updateRoutineInFirebase(userID) { success ->  // ← CAMBIO AQUÍ
+                    if (success) println("Rutina actualizada con éxito")
+                    else println("Error al actualizar")
+                }
                 showForm = false
             },
             onDismiss = { showForm = false }
         )
     }
 }
+
+
 @RequiresApi(Build.VERSION_CODES.O)
 @Preview(showBackground = true, showSystemUi = true)
 @Composable

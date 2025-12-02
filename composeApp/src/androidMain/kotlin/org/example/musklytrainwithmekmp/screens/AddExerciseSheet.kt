@@ -34,6 +34,7 @@ fun AddExerciseSheet(onSave: (Exercise)->Unit, onDismiss:()->Unit) {
                     if (name.isNotBlank() && series.isNotBlank() && reps.isNotBlank() && weight.isNotBlank()) {
                         onSave(Exercise(name, series.toInt(), reps.toInt(), weight.toInt()))
                     }
+
                 },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,

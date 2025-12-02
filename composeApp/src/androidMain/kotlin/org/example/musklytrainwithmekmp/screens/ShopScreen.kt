@@ -11,7 +11,11 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Checkroom
 import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.Headphones
+import androidx.compose.material.icons.filled.Schedule
+import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -20,6 +24,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.muskly_trainwithme_kmp.android.userID
 import org.example.musklytrainwithmekmp.Item
 import org.example.musklytrainwithmekmp.ShopViewModel
 
@@ -34,15 +40,20 @@ import org.jetbrains.compose.resources.painterResource
 
 
 @Composable
-fun ShopScreen(viewModel: ShopViewModel = remember {  ShopViewModel()}) {
+fun ShopScreen(viewModel: ShopViewModel = viewModel {  ShopViewModel()}) {
 
     val coins by viewModel.coins.collectAsState()
-    val characterName by viewModel.characterName.collectAsState()
+    val petName by viewModel.characterName.collectAsState()
     val selectedTab by viewModel.selectedTab.collectAsState()
     val shopItems by viewModel.shopItems.collectAsState()
     val inventoryItems by viewModel.inventoryItems.collectAsState()
     val itemToBuy by viewModel.itemToBuy.collectAsState()
+    val userId = userID // ← PASAR userID
 
+    // Cargar datos al iniciar
+    LaunchedEffect(Unit) {
+        viewModel.loadShop(userId, petName)
+    }
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -72,7 +83,7 @@ fun ShopScreen(viewModel: ShopViewModel = remember {  ShopViewModel()}) {
 
         // --- Nombre del personaje ---
         Text(
-            text = characterName,
+            text = petName,
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.secondary,
@@ -96,15 +107,15 @@ fun ShopScreen(viewModel: ShopViewModel = remember {  ShopViewModel()}) {
             val tshirtEquipped by viewModel.isTshirtEquipped.collectAsState()
             // Gafas
             if (sunglassesEquipped) {
-                AccessoryImage(Res.drawable.img17, xOffset = -5, yOffset = -20)
+                AccessoryImage(Res.drawable.img17, xOffset = -4, yOffset = -22)
             }
             // Gorra
             if (capEquipped) {
-                AccessoryImage(Res.drawable.img18, xOffset = -2, yOffset = -52)
+                AccessoryImage(Res.drawable.img18, xOffset = -4, yOffset = -52)
             }
             // Camiseta
             if (tshirtEquipped) {
-                AccessoryImage(Res.drawable.img19, xOffset = -2, yOffset = 36)
+                AccessoryImage(Res.drawable.img19, xOffset = -2, yOffset = 33)
             }
         }
 
@@ -159,12 +170,12 @@ fun ShopTab(
     title: String,
     selected: Boolean,
     modifier: Modifier = Modifier,
-    onClick: () -> Unit,
-    ) {
+    onClick: () -> Unit
+) {
     Column(
-        modifier = Modifier
+        modifier = modifier
             .clickable(onClick = onClick)
-            .padding(vertical = 6.dp),  // separacion visual
+            .padding(vertical = 6.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
@@ -173,19 +184,23 @@ fun ShopTab(
             fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
             color = MaterialTheme.colorScheme.secondary
         )
-        Spacer(Modifier.height(4.dp))
 
+        Spacer(Modifier.height(6.dp))
 
         AnimatedVisibility(visible = selected) {
             Box(
                 modifier = Modifier
-                    .height(4.dp)
-                    .fillMaxWidth(0.5f) // longitud controlada de la barra
-                    .background(MaterialTheme.colorScheme.primary, RoundedCornerShape(40))
+                    .height(5.dp)
+                    .fillMaxWidth()        // ahora ocupa 1/2 de pantalla
+                    .background(
+                        MaterialTheme.colorScheme.primary,
+                        RoundedCornerShape(40)
+                    )
             )
         }
     }
 }
+
 
 @Composable
 fun AccessoryImage(res: DrawableResource, xOffset: Int, yOffset: Int) {
@@ -232,19 +247,23 @@ fun ShopItemCard(item: Item, onBuy: (Item) -> Unit) {
 
 @Composable
 fun ItemIcon(item: Item) {
-    val icon = when(item.icon){
-        "visibility" ->  Icons.Default.Favorite
 
-        "style"      -> Icons.Default.Favorite
-
-        "checkroom"     -> Icons.Default.Favorite
-        "face"        -> Icons.Default.Favorite
-        else         -> Icons.Default.Favorite
+    val icon = when (item.name.lowercase()) {
+        "t-shirt", "tshirt", "shirt" -> Icons.Default.Checkroom
+        "cap", "hat" -> Icons.Default.Headphones
+        "sunglasses", "glasses" -> Icons.Default.Visibility
+        "watch" -> Icons.Default.Schedule
+        else -> Icons.Default.Favorite
     }
 
     Icon(
-        imageVector = icon, contentDescription = null, Modifier.size(42.dp))
+        imageVector = icon,
+        contentDescription = item.name,
+        modifier = Modifier.size(42.dp),
+        tint = MaterialTheme.colorScheme.secondaryContainer
+    )
 }
+
 
 @Composable
 fun InventorySection(items: List<Item>, onToggle: (Item) -> Unit) {
@@ -283,4 +302,3 @@ fun InventoryCard(item: Item, onClick: () -> Unit) {
         }
     }
 }
-
